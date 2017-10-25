@@ -1,0 +1,2 @@
+# soso-spinner
+Simpple spinner
