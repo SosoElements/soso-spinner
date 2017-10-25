@@ -1,2 +1,3 @@
-# soso-spinner
-Simpple spinner
+# \<soso-spinner\>
+
+Simple spinner

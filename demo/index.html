@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>soso-spinner demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+  <link rel="import" href="../soso-spinner.html">
+
+  <custom-style>
+    <style is="custom-style" include="demo-pages-shared-styles">
+      soso-spinner {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+      }
+
+      .colored {
+        --sosos-spinner-minor-color: rgba(255, 0, 0, 0.2);
+        --sosos-spinner-major-color: rgba(255, 0, 0, 1);
+      }
+
+      .thin {
+        --soso-spinner-thickness: 5px;
+      }
+    </style>
+  </custom-style>
+</head>
+
+<body>
+  <div class="vertical-section-container centered">
+    <h3>Basic soso-spinner demo</h3>
+    <demo-snippet>
+      <template>
+        <soso-spinner></soso-spinner>
+        <soso-spinner spinning></soso-spinner>
+        <soso-spinner class="thin" spinning></soso-spinner>
+        <soso-spinner class="colored" spinning></soso-spinner>
+      </template>
+    </demo-snippet>
+  </div>
+</body>
+
+</html>
